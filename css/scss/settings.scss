@@ -1,0 +1,200 @@
+/*------------------------------------------------------------------
+
+Project:    Crumpet
+Version:	1.0
+
+###
+
+Crumpet is a deliciously simple SASS/SCSS responsive framework that keeps 
+your HTML clean & stays out of your way.
+
+Any problems, ideas or questions post an issue, hit me up on twitter @AdamMarsBar 
+or find some other fancy way to get in touch, it's the 21st century after all.
+
+Built with flour & yeast by Adam Marsden - adam-marsden.co.uk
+
+------------------------------------------------------------------*/
+
+/* Width of containers */
+
+$mobile-container:     95%;
+$tablet-container:     700px;
+$desktop-container:    960px;
+
+/* Responsive Break Points */
+
+$mobile-break:         $tablet-container + 24px;
+$tablet-break:         $tablet-container + 25px;
+$desktop-break:        $desktop-container;
+
+/* Resets */
+
+* {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+/* Body */
+
+body {
+	//Change these to what ever you like
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	color: #707070;
+}
+
+/*------------------------------------------------------------------
+
+[Grid - Desktop]
+
+To set the width of a column on desktops do this:
+
+	@extend %grid-*a number*;
+
+You make certain classes not display on desktop by adding:
+
+	@extend %desktop_none;
+
+------------------------------------------------------------------*/
+
+.container {
+	max-width: $desktop-container;
+	margin: 0 auto;
+}
+
+.row {
+	padding:10px 0;
+
+	// clearfix
+	zoom: 1;
+
+	&:before, 
+	&:after { 
+		content: ""; 
+		display: table; 
+	} 
+
+	&:after { 
+		clear: both; 
+	}
+}
+
+.col {
+	float:left;
+	//add styles in here if you want all columns to look the same
+	//You could add 'float: left;' to the grid widths, then you wouldn't have to add the 'col' class to the html at all
+}
+
+/* Grid widths */
+
+%grid-1  { width: 8.33333%; }
+%grid-2  { width: 16.66667%; }
+%grid-3  { width: 25%; }
+%grid-4  { width: 33%; }
+%grid-5  { width: 41.66665%; }
+%grid-6  { width: 50%; }
+%grid-7  { width: 58.33333%; }
+%grid-8  { width: 66.66666%; }
+%grid-9  { width: 75%; }
+%grid-10 { width: 83.33333%; }
+%grid-11 { width: 91.66666%; }
+%grid-12 { width: 100%; }
+
+@media only screen and (min-width: $desktop-break) {
+	%desktop_none {
+		display: none;
+	}
+}
+
+/*------------------------------------------------------------------
+
+[Grid - Tablet]
+
+To set the width of a column on tablets do this:
+
+	@extend %tablet_grid-*a number*;
+
+You make certain classes not display on tablet by adding:
+
+	@extend %tablet_none;
+
+------------------------------------------------------------------*/
+
+@media only screen and (min-width: $tablet-break) and (max-width: $desktop-break) {
+
+.container {
+	max-width: $tablet-container;
+}
+
+/* Column widths for tablet */
+
+%tablet_grid-1  { width: 8.33333%; }
+%tablet_grid-2  { width: 16.66667%; }
+%tablet_grid-3  { width: 25%; }
+%tablet_grid-4  { width: 33%; }
+%tablet_grid-5  { width: 41.66665%; }
+%tablet_grid-6  { width: 50%; }
+%tablet_grid-7  { width: 58.33333%; }
+%tablet_grid-8  { width: 66.66666%; }
+%tablet_grid-9  { width: 75%; }
+%tablet_grid-10 { width: 83.33333%; }
+%tablet_grid-11 { width: 91.66666%; }
+%tablet_grid-12 { width: 100%; }
+
+%tablet_none {
+	display: none;
+}
+
+}
+
+/*------------------------------------------------------------------
+
+[Grid - Mobile]
+
+To set the width of a column on mobiles do this:
+
+	@extend %mobile_grid-*a number*;
+
+or
+
+	@extend %mobile_full;
+
+for a full width column.
+
+
+You make certain classes not display on desktop by adding:
+
+	@extend %mobile_none;
+
+------------------------------------------------------------------*/
+
+@media only screen and (max-width: $mobile-break) {
+
+.container {
+	max-width: $mobile-container;
+}
+
+/* Grid widths for mobile */
+
+%mobile_full {
+	left: auto;
+	clear: both;
+	float: none;
+	width: 100%;
+	display: block;
+}
+
+%mobile_grid-1-2 { width: 50%; }
+%mobile_grid-1-3 { width: 33%; }
+%mobile_grid-1-4 { width: 25%; }
+
+%mobile_none {
+	display: none;
+}
+
+}

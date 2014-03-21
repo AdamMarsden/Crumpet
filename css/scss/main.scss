@@ -1,0 +1,91 @@
+@import	'settings.scss';
+
+/* Demo purposes */
+
+.col {
+	padding:10px;
+}
+
+.preview {
+	text-align: center;
+}
+
+%bg-color__light {
+	background-color: #efefef;
+}
+
+%bg-color__dark {
+	background-color: #D3D3D3;
+}
+
+/*------------------------------------------------------------------
+
+This demo shows that you can hide any class at any time.
+
+Normally you wouldn't want to do this. You can easily change the width
+of a column by adding which size screen you would like it to break at 
+and then set the column width.
+
+	.name {
+		@extend %grid-2;
+		@extend %tablet_grid-5;
+		@extend %mobile_1-2;
+	}
+
+This example would make the class be 2 columns wide on desktop,
+5 columns wide on a tablet and half a column wide on mobile.
+
+Easy as that :)
+
+------------------------------------------------------------------*/
+
+/* Desktop */
+.name {
+	@extend %grid-2;
+	@extend %tablet_none;
+	@extend %mobile_none;
+
+	@extend %bg-color__light;//demo purposes
+}
+
+.your {
+	@extend %grid-10;
+	@extend %tablet_none;
+	@extend %mobile_none;
+
+	@extend %bg-color__dark;//demo purposes
+}
+
+/* Tablet */
+.classes {
+	@extend %desktop_none;
+	@extend %tablet_grid-9;
+	@extend %mobile_none;
+
+	@extend %bg-color__light;//demo purposes
+}
+
+.whatever {
+	@extend %desktop_none;
+	@extend %tablet_grid-3;
+	@extend %mobile_none;
+
+	@extend %bg-color__dark;//demo purposes
+}
+
+/* Mobile */
+.you {
+	@extend %desktop_none;
+	@extend %tablet_none; 
+	@extend %mobile_grid-1-2;
+
+	@extend %bg-color__light;//demo purposes
+}
+
+.like {
+	@extend %desktop_none;
+	@extend %tablet_none; 
+	@extend %mobile_grid-1-2;
+
+	@extend %bg-color__dark;//demo purposes
+}
