@@ -1,15 +1,15 @@
 # Crumpet - A Deliciously Simple Framework
 Crumpet is a deliciously simple SASS/SCSS responsive framework that keeps your HTML clean & stays out of your way.
 
-**Tidy HTML** - Crumpet makes use of placeholder selectors to reduce the size of your HTML markup.
+**Tidy HTML** - Built to make use of placeholder selectors to reduce the size of your HTML markup. No one likes messy HTML.
 
-**Create Fast** - Create website layouts fast & responsive.
+**Create Fast** - Creating website layouts fast & responsive will be a breeze. Not windy like it is in Autumn.
 
-**Freedom** - Crumpet allows you the freedom to do what you want with your code.
+**Freedom** - Allows you the freedom to do what you want with your code. Easy and simple to hack about and make your own.
 
 ## Why?
 
-I hate messy HTML markup, so I wanted to take advantage of the placeholder selectors that's built into SASS to stop all that mess and keep it the the CSS.
+I hate messy HTML markup, so I wanted to take advantage of the placeholder selectors that's built into SASS to stop all that mess and keep it in the CSS.
 
 [Learn about how placeholder selectors work](http://thesassway.com/intermediate/understanding-placeholder-selectors)
 
@@ -17,7 +17,7 @@ I wanted to let people have the freedom to do what they want with their code, so
 
 ## What's in the ingredients?
 
-Everything is very straight forward, all the instructions are in the code give to you guidance on how to use Crumpet.
+Everything is straight forward, all of the code is commented and gives you instructions on how to use Crumpet, so you can spend all your time in the code editor. Here are the few files that Crumpet comes with to get you going:
 
 * A `index.html` that gives you a little demo.
 * A `settings.scss` file which has the frameworks settings in.
@@ -28,6 +28,8 @@ Everything is very straight forward, all the instructions are in the code give t
 Crumpet can quite easily support pretty much any browser you want with the right files, but I decided I'd leave it to you guys to add the ones that you find work for you (I know we all have our favourites).
 
 ## Notes
+
+Head over to [Crumpets](http://suitedpixel.com/crumpet/) site to get a quick overlook about how it works.
 
 *Why the name 'Crumpet'?* - Why not? I'm British, it's allowed.
 
