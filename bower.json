@@ -1,5 +1,5 @@
 {
-	"name": "crumpet-bower-test",
+	"name": "crumpet",
 	"version": "0.0.1",
 	"keywords": [
 		"simple",
@@ -10,8 +10,7 @@
 	],
 	"homepage": "http://suitedpixel.com/crumpet/",
 	"authors": [
-		"Adam Marsden <https://github.com/AdamMarsBar>",
-		"sviens <https://github.com/sviens>"
+		"Adam Marsden <https://github.com/AdamMarsBar>"
 	],
 	"description": "Crumpet is a deliciously simple SASS/SCSS responsive framework that keeps your HTML clean & stays out of your way.",
 	"main": [
