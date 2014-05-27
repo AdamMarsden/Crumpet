@@ -1,0 +1,27 @@
+{
+	"name": "crumpet",
+	"version": "0.0.1",
+	"keywords": [
+		"simple",
+		"responsive",
+		"framework",
+		"sass",
+		"scss"
+	],
+	"homepage": "http://suitedpixel.com/crumpet/",
+	"authors": [
+		"Adam Marsden <https://github.com/AdamMarsBar>"
+	],
+	"description": "Crumpet is a deliciously simple SASS/SCSS responsive framework that keeps your HTML clean & stays out of your way.",
+	"main": [
+		"css/main.css",
+		"css/scss/main.scss",
+		"css/scss/settings.scss"
+	],
+	"license": "MIT",
+	"ignore": [
+		"bower.json",
+		"index.html",
+		"readme.md"
+	]
+}
