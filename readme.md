@@ -33,7 +33,7 @@ Head over to [Crumpets](http://suitedpixel.com/crumpet/) site to get a quick ove
 
 *Why the name 'Crumpet'?* - Why not? I'm British, it's allowed.
 
-Any problems, ideas or questions post an issue, hit me up on twitter [@AdamMarsBar](https://twitter.com/AdamMarsBar) or find some other fancy way to get in touch, it's the 21st century after all.
+Any problems, ideas or questions post an issue, hit me up on twitter [@AdamMarsdenUK](https://twitter.com/AdamMarsdenUK) or find some other fancy way to get in touch, it's the 21st century after all.
 
 Built with flour & yeast by [Adam Marsden](http://adam-marsden.co.uk).
 
