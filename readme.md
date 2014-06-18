@@ -1,5 +1,5 @@
 # Crumpet - A Deliciously Simple Framework
-Crumpet is a deliciously simple SASS/SCSS responsive framework that keeps your HTML clean & stays out of your way.
+[Crumpet is a deliciously simple SASS/SCSS responsive framework that keeps your HTML clean & stays out of your way.](http://suitedpixel.com/crumpet/)
 
 **Tidy HTML** - Built to make use of placeholder selectors to reduce the size of your HTML markup. No one likes messy HTML.
 
