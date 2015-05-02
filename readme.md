@@ -1,11 +1,11 @@
 # Crumpet - A Deliciously Simple Framework
 [Crumpet is a deliciously simple SASS/SCSS responsive framework that keeps your HTML clean & stays out of your way.](http://suitedpixel.com/crumpet/)
 
-**Tidy HTML** - Built to make use of placeholder selectors to reduce the size of your HTML markup. No one likes messy HTML.
+**Tidy HTML** - Uses placeholder selectors to reduce the size of your HTML. No one likes messy.
 
-**Create Fast** - Creating website layouts fast & responsive will be a breeze. Not windy like it is in Autumn.
+**Create Fast** - Creating website layouts fast & responsive will be a breeze. Fast & smart building.
 
-**Freedom** - Allows you the freedom to do what you want with your code. Easy and simple to hack about and make your own.
+**Freedom** - Allows you the freedom to do what you want with your code. Make it your own.
 
 ## Why?
 
@@ -17,7 +17,7 @@ I wanted to let people have the freedom to do what they want with their code, so
 
 ## What's in the ingredients?
 
-Everything is straight forward, all of the code is commented and gives you instructions on how to use Crumpet, so you can spend all your time in the code editor. Here are the few files that Crumpet comes with to get you going:
+Super easy to understand and get started with, all of Crumpet’s code has been commented through out to give you a full understanding of each line, meaning you can spend all your precious time in the code editor. Here are the few files that Crumpet comes with to get you going:
 
 * A `index.html` that gives you a little demo.
 * A `settings.scss` file which has the frameworks settings in.
